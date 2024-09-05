@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind project</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gradient-to-r from-[#F28383] from-10% via-[#9D6CD2] via-30% to-[#481EDC] to-90%] flex items-center justify-center h-screen">
+    
+    <div class="max-w-[960px] bg-black-dark grid grid-cols-2 items-center  gap-20 p-5 rounded-2xl">
+        <div>
+           <img src="./assets/login.jpeg" alt="" class="rounded-full">
+        </div>
+
+        <div class="max-w-80 grid gap-5">
+          <h1 class="text-5xl font-bold text-white">Login</h1>
+          <p class="text-dull-white">Access from every where and anytime</p>  
+          <form action="" class="space-y-6 text-white">
+            <div class="relative">
+                <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text-blue-300">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <input type="text" placeholder="Username" class="w-80 bg-white-light py-2 px-12 rounded-full focus:bg-black-dark focus:outline-none  focus:ring focus:ring-neon-blue focus:drop-shadow-lg">
+            </div>
+
+            <div class="relative">
+                <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text-blue-300">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <input type="Email" placeholder="Email address" class="w-80 bg-white-light py-2 px-12 rounded-full focus:bg-black-dark focus:outline-none  focus:ring focus:ring-neon-blue focus:drop-shadow-lg">
+            </div>
+
+            <div class="relative">
+                <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text-blue-300">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <input type="text" placeholder="password" class="w-80 bg-white-light py-2 px-12 rounded-full focus:bg-black-dark focus:outline-none  focus:ring focus:ring-neon-blue focus:drop-shadow-lg">
+            </div>
+            <button class="bg-gradient-to-r from-cyan-200 to-indigo-600 w-80 font-semibold rounded-full py-2">sign in</button>
+          </form>
+          <div class="text-dull-white border-t border-white-light pt-4 space-y-4 text-sm ">
+            <p>Dont have an account? <a class="text-neon-blue font-semibold cursor-pointer">Sign up</a></p>
+            <p>Forgot password? <a class="text-neon-blue font-semibold cursor-pointer">Reset password</a></p>
+            <p>Dont't have a password yet? <a class="text-neon-blue font-semibold cursor-pointer">set a password</a></p>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
